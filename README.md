@@ -1,19 +1,19 @@
+# Sesión 1 — Puesta a punto y trazabilidad práctica
 
-# Sesión 1 - Puesta a punto y trazabilidad práctica
+**Autor:** Javier de la Fuente Gonzalo
 
-##Autor
-Javier de la Fuente Gonzalo
+## Objetivo
+Preparar un flujo reproducible de trabajo y verificar la integridad de los artefactos mediante SHA-256.
 
-## 🔐 Verificación de Integridad
-**Hash SHA-256:** `fac9b75b132857663da9866d3e96593fa1b94b1175b5a3f3131a2d59ff3756a0`
+## Contenido
+- `00_setup_de_la_Fuente_Gonzalo_Javier.ipynb`: notebook de preparación y verificación.
+- `registro_hash.json`: nombre del artefacto y huella SHA-256 registrada.
 
-Este hash garantiza la integridad del notebook y permite verificar que no ha sido modificado.
+## Cómo utilizarlo
+1. Abre el notebook con Jupyter Notebook, JupyterLab o Google Colab.
+2. Mantén el notebook y `registro_hash.json` en el mismo directorio.
+3. Ejecuta las celdas en orden para calcular y comparar la huella.
+4. Si modificas el notebook, vuelve a calcular su SHA-256 y actualiza el registro.
 
-## 📊 Autoevaluación EEE
-- **Exactitud:** 2/2
-- **Explicabilidad:** 2/2  
-- **Economía:** 2/2
-- **Comentario:** "Plantilla y hash verificados correctamente"
-
-## 🎯 Objetivo Cumplido
-Establecer las bases para experimentos reproducibles en IA con trazabilidad completa.
+## Verificación
+El hash permite detectar cambios en el archivo; no demuestra por sí solo que el contenido sea correcto o seguro.
